@@ -1,0 +1,13 @@
+.nftImg {
+   background-image: url('../../images/Rectangle1.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.shadow-creator{
+   transition: box-shadow .3s;
+}
+
+.shadow-creator:hover {
+   box-shadow: 0 0 10px #D4BA0B;
+}

@@ -1,0 +1,36 @@
+.backgroundImage {
+   background-image: url('../../images/background.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 53vmax;
+}
+
+.sample {
+   max-width: 60vw;
+}
+
+.slick-next:before,
+.slick-prev:before {
+   font-size: 0px;
+   line-height: 1;
+   opacity: 0 !important;
+   ;
+   color: transparent;
+}
+
+.slick-dots li button:before {
+   margin-top: 50px;
+   font-size: 10px !important;
+   line-height: 20px;
+   width: 10px !important;
+   height: 10px !important;
+   content: "•";
+   text-align: center;
+   opacity: 1 !important;
+   color: black !important;
+}
+
+.slick-dots li.slick-active button:before {
+   opacity: 1 !important;
+   color: #D4BA0B !important;
+}

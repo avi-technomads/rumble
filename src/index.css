@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: Jost-Regular;
+  src: url("./Assets/Jost/static/Jost-Regular.ttf");
+
+}
+
+/* @font-face {
+  font-family: Jost-Bold;
+  src: url("./Assets/Jost/static/Jost-Bold.ttf");
+} */
+
+body {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  position: relative;
+  font-family: Jost-Regular;
+  /* font-family: Jost-Bold; */ 
+}

@@ -1,0 +1,7 @@
+.bluryBackground {
+   background-image: url('../../images/blurryBackground.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   height: fit-content;
+   width: fit-content;
+}
