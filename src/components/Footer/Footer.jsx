@@ -9,10 +9,10 @@ const Footer = () => {
 			<div className='flex gap-2 items-center'>
 				<p>Connect with us</p>
 				<p className='cursor-pointer'>
-					<i className='fa-brands fa-twitter text-lg transition-transform hover:ease-in-out duration-200 hover:scale-110 hover:text-blue-500'></i>
+					<i className='fa-brands fa-twitter text-lg hover:text-[#D4BA0B]'></i>
 				</p>
 				<p className='cursor-pointer'>
-					<i className='fa-brands fa-discord text-lg transition-transform hover:ease-in-out duration-200 hover:scale-110 hover:text-blue-500'></i>
+					<i className='fa-brands fa-discord text-lg hover:text-[#D4BA0B]'></i>
 				</p>
 			</div>
 		</div>
