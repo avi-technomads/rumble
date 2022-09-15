@@ -1,0 +1,4 @@
+.play-button {
+   background-image: url('../../images//play.png');
+   z-index: 10000;
+}
