@@ -10,16 +10,18 @@ import Aos from 'aos';
 
 const NftCollection = () => {
 	Aos.init({ duration: 1000 });
+
 	const settings = {
-		// infinite: true,
+		infinite: true,
 		dots: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		// lazyLoad: true,
-		// autoplay: true,
+		autoplay: true,
 		autoplaySpeed: 2000,
 		className: 'sample',
 	};
+
 	const slider = [
 		{
 			id: 0,
@@ -49,7 +51,7 @@ const NftCollection = () => {
 			<div className=' mt-20'>
 				<div className='container mx-auto'>
 					<div
-						className='flex flex-col  items-center justify-center gap-5 text-white '
+						className='flex flex-col items-center justify-center gap-5 text-white'
 						data-aos='fade-right'
 					>
 						<Title titleName={'NFT Collection'} />
