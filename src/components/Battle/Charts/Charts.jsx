@@ -362,7 +362,7 @@ const Charts = () => {
 			</div>
 
 			<Title titleName={'Losing Elements'} />
-			<div className='text-white text-center font-medium text-3xl'>
+			<div className='text-white text-center font-medium text md:text-3xl'>
 				<div className='py-2'>
 					<p>Losing NFTs are completely dead. They can be used to stake</p>
 					<p>and earn $RMBL token.</p>

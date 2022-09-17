@@ -1,4 +1,4 @@
-import React ,{useEffect} from 'react';
+import React, { useEffect } from 'react';
 import './Battle.css';
 import Image1 from '../../images/image1.png';
 import Image2 from '../../images/image2.png';
@@ -83,6 +83,7 @@ const Battle = () => {
 			text: 'Provably fair using Onchain Algorithms',
 		},
 	];
+
 	return (
 		<>
 			<div className='bg-[#1b1b1b]'>
